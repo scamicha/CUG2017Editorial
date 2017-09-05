@@ -1,0 +1,108 @@
+\documentclass[AMA,LATO1COL,demo]{WileyNJD-v2}
+
+\articletype{Article}%
+
+\received{28 August 2017}
+\revised{6 June 2016}
+\accepted{6 June 2016}
+
+\raggedbottom
+
+\begin{document}
+
+\title{Foreword to the Special Issue of the Cray User Group (CUG 2017)}
+
+\author[1]{Scott Michael*}
+
+\author[2]{Yun He}
+
+
+\authormark{Michael \textsc{et al}}
+
+
+\address[1]{\orgdiv{Pervasive Technology Institute}, \orgname{Indiana University}, \orgaddress{\state{Indiana}, \country{USA}}}
+
+\address[2]{\orgdiv{Org Division}, \orgname{Org Name}, \orgaddress{\state{State name}, \country{Country name}}}
+
+\corres{*Scott Michael, \email{scamicha@iu.edu}}
+
+\presentaddress{2709 E Tenth St, Bloomington, IN, 47408, USA}
+
+\abstract[Summary]{This special issue contains papers addressing various topics in supporting research, development, and operations on Cray systems. From deploying and administering some of the world's largest scale systems, to designing and optimizing applications and supporting users on these systems, the
+
+
+This special issue contains the ten most highly reviewed papers from CUG 2017, the 60th meeting of the Cray User group. Each year
+
+
+The 60th CUG has us returning to the Seattle area near Cray
+headquarters and in the heart of Washington wine-tasting country. As we look forward to
+2017 the goal of the CUG Board is to expand the horizons of our attendees and our program
+to include even more data, storage, and analytics discussions while continuing to support
+high quality HPC content that is at the core of CUG. There are many challenges in our
+field from rising power utilization, increasing core counts and scalability limitations,
+to the integration of new approaches that couple data analytics, HPC, and containerization
+in single environments. It is through events like CUG that we can share our approaches,
+expertise, and failures in order to continue to push boundaries. The relatively young
+history of Seattle has striking parallels to our own industry, in how difficult it was to
+first settle and the success it has achieved in the Pacific Northwest. Home to leading
+industry such as Boeing, Microsoft, and Amazon there's much we can learn from the area.
+Most importantly, to many sleep-deprived tech workers, it also has a thriving coffee
+culture, including being the birthplace of Starbucks. The theme of Caffeinated Computing
+touches on that tradition, and it may not be a coincidence that Seattle has such a storied
+history with coffee along with being the headquarters to our dear colleagues at Cray. We
+value your contributions to our technical program and look forward to the progress that
+members and sponsors will share at CUG 2017.}
+
+\keywords{}
+
+\maketitle
+
+\section{Themes of This Special Issue}\label{sec:themes}
+
+From the accepted papers, and the conference in general, several themes emerged as being
+at the forefront of deploying and supporting Cray systems. Although the conference is
+roughly organized along five technical tracks (Filesystems \& I/O, Systems Support, User
+Services, Applications \& Programming Environments, and Data Analytics) we saw some trends
+that cut across these divisions as well as some highlights within these tracks.
+
+\subsection{The Knight's Landing Architecture}\label{sec:knl}
+
+The Cray XC40 is a system that supports Intel's latest many-core architecture codenamed Knight's Landing (KNL). The CUG 2017 conference saw many presentations and papers highlighting the opportunities and challenges in supporting and using moderate to large scale XC40 deployments. Several of the papers in this special issue deal with topics specific to KNL and the XC40. These include:
+\begin{itemize}
+  \item Deployment and acceptance of XC40 systems
+  \item XC40 networking and KNL configuration options
+  \item Application performance on KNL
+\end{itemize}
+One of the biggest challenges that has been faced by Cray users with respect to KNL is moving applications from one architecture to another. Several of the papers in this issue address this with application comparisons and some targeted best practices for moving to KNL.
+
+\subsection{Optimization of I/O}\label{sec:io}
+
+The best paper award at CUG 2017 went to a paper titled ``Lustre Lockahead: Early Experience and Performance using Optimized Locking''. The focus of this paper on optimizing performance of shared file writing on Lustre underscores the continued emphasis on I/O optimization that we have seen in many past CUG conferences. Several papers in this special issue focus on I/O optimization for large scale Cray systems.
+
+\subsection{Data Analytics}\label{sec:data}
+
+This year the CUG conference added a new Data Analytics technical track, reflecting the 
+
+\section{Conclusion}\label{sec:conclusion}
+
+concluding thoughts
+
+\section{Guest Editors}\label{sec:editors}
+\subsection{Scott Michael}\label{sec:scott}
+\subsection{Yun (Helen) He}\label{sec:helen}
+
+\section{Acknowledgements}\label{sec:acknowledge}
+
+
+
+
+Example for bibliography citations cite\cite{Taylor1937}, cites\cite{Knupp1999,Kamm2000}
+
+
+
+%\nocite{*}% Show all bib entries - both cited and uncited; comment this line to view only cited bib entries;
+\bibliography{CUG2017EditorNote}%
+
+\clearpage
+
+\end{document}
